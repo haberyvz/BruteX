@@ -1,9 +1,9 @@
 import requests
 import time
 
-target_url = "https://www.instagram.com/accounts/login/ajax/"
+target_url = "https://x.com/i/flow/login"
 # ism yada eposta
-username = input("ichbinereros")
+username = input("Yusuf51984853")
 password_file = "passwords.txt"
 failed_message = "oturum açma başarısız"
 with open(password_file, "r") as passwords:
